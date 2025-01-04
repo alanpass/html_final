@@ -1,0 +1,67 @@
+/* 通用樣式 */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Yoga Spaces */
+.yoga-space img {
+    width: 100%;
+    height: auto;
+}
+
+/* Course Information */
+.course img {
+    width: 100%;
+    height: auto;
+}
+
+/* Navbar */
+.navbar {
+    margin-bottom: 20px;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.nav-link {
+    margin-right: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+}
+
+footer h5 {
+    font-weight: bold;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer .form-control {
+    margin-right: 10px;
+}
+
+footer .btn {
+    margin-top: 10px;
+}
+
+/* Media Queries */
+@media (max-width: 767px) {
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .footer .d-flex {
+        flex-direction: column;
+    }
+
+    .footer .d-flex a {
+        margin-bottom: 10px;
+    }
+}
